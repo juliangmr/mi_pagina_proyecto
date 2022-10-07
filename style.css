@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_main{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.nav{
+    background: rgb(82, 82, 245);
+     height: 10vh ; 
+
+}
+.container_nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.container_nav a{
+    color: #ffff; 
+    margin:0 10px;
+    text-decoration: none;
+}
+.container_nav a:hover{
+    color: aqua;
+
+}
+
+.hero{
+  height: 20;
+  background-image: url(informatica.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+
+.tittle{
+    
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    border: solid 1px white;
+    border-radius: 25px; 
+}
+/* Gallery */
+
+.main h2{
+  margin-top: 25px;
+  text-align: center;
+  } 
+
+.main .parrafo{
+  text-align: center;
+  }
+
+
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    background: #eee;
+  }
+  
+ 
+    
+
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+  }
+  .column img{
+    width: 70px;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .sobremi{
+    display: flex;
+  }
+
+  .sobremi div{
+    width: 48%;
+  }
+  
+  
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
